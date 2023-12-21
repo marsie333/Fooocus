@@ -597,3 +597,4 @@ shared.gradio_root.launch(
     auth=check_auth if args_manager.args.share and auth_enabled else None,
     blocked_paths=[constants.AUTH_FILENAME]
 )
+
